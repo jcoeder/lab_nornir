@@ -30,6 +30,7 @@ def main():
     results = nr.run(task=napalm_get, getters=['facts'])
     # For each key/value - host/multiresult
     for host, multiresult in results.items():
+        # Extract the result from the multiresult
         result = multiresult[0].result
         try:
             print(result['facts']['hostname'])
