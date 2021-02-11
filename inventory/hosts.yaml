@@ -1,0 +1,35 @@
+---
+nxos1:
+  hostname: 172.31.32.201
+  groups:
+    - nxos
+
+nxos2:
+  hostname: 172.31.32.202
+  groups:
+    - nxos
+
+mx4:
+  hostname: 172.31.32.204
+  groups:
+    - junos
+
+mx5:
+  hostname: 172.31.32.205
+  groups:
+    - junos
+
+pa1:
+  hostname: 172.31.32.26
+  groups:
+    - panos
+
+csr9:
+  hostname: 172.31.32.22
+  groups:
+    - ios
+
+csr10:
+  hostname: 172.31.32.24
+  groups:
+    - ios
