@@ -1,0 +1,27 @@
+---
+junos:
+  platform: junos
+  username: root
+  password: PASSWORD
+
+ios:
+  platform: ios
+  username: admin
+  password: PASSWORD
+#  connection_options:
+#    netmiko:
+#      extras:
+#        secret: PASSWORD
+#    napalm:
+#      extras:
+#        secret: PASSWORD
+
+nxos:
+  platform: nxos
+  username: admin
+  password: PASSWORD
+
+panos:
+  platform: panos
+  username: admin
+  password: PASSWORD
