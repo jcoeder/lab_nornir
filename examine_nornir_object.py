@@ -10,3 +10,13 @@ print(results['nxos1'].result['config']['running']) # dive into dictionary
 print(results['nxos1'].result['facts']) # dive into dictionary
 print(results['nxos1'].result['facts']['serial']) # dive into dictionary
 print(results['nxos1'].result['facts']['serial_number']) # dive into dictionary
+
+#Failed tasks
+results.failed_hosts['csr10'].result
+
+#Copy data to new object
+results2 = results.copy()
+
+nxos1=results['nxos1'].copy()
+nxos1
+nxos1[0].result
