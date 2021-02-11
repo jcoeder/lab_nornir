@@ -1,0 +1,10 @@
+nornir
+nornir_utils
+nornir_napalm
+nornir_netmiko
+napalm
+napalm-yang
+requests
+ipython
+gitpython
+ipdb
